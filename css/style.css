@@ -1,0 +1,468 @@
+*
+{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*nav section*/
+.rotate
+{
+    transform: rotate(320deg);
+}
+.nav-link{
+    color: black !important;
+}
+.nav-link:hover {
+    color: blue !important;
+}
+.dropdown
+{
+    
+        position: relative !important;
+       
+      
+ display: inline-block !important;
+}
+.dropdown-menu
+ {
+    display: none !important;
+    position: absolute !important;
+    /* background-color: #f1f1f1 !important; */
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
+    z-index: 1 !important;
+  }
+.dropdown-menu a{
+    color: black !important;
+    display: block !important;
+}
+.dropdown-menu a:hover
+{
+    color: blue !important;
+    
+}
+.dropdown:hover .dropdown-menu
+ {  
+     display: block !important;
+}
+
+/* end nav section*/
+
+
+
+
+
+/*slider section*/
+.carousel-indicators [data-bs-target]
+ {
+    width: 8px;
+    height: 8px;
+    border: 1px solid white;
+    margin-bottom: 15px;
+   
+}
+.carousel-indicators
+{
+    left: auto;
+    top: 20%;
+
+}
+.carousel-indicators :hover
+{
+   transform: scale(1.5);
+   border: 1px solid gray;
+   background-color: transparent;
+   opacity: 0.5;
+}
+.carousel-caption
+{
+    top: 20%;
+}
+.img-slid
+{
+    height: 600px;
+}
+
+.btn-carousel:hover
+{
+ background-color: #0d6efd !important;
+ border: none !important;
+}
+/* end slider section*/
+
+
+
+/*card on image section 3*/
+.card-on-image
+{
+    left: 2% !important;
+    top: 2%;
+    width:40%;
+}
+.card-a-hover:hover
+{
+ color: blue !important;
+}
+
+.section-card-6
+{
+    background-image: url( http://dazzlersoftware.com/testwp/munix-pro/wp-content/themes/munix-pro/img/service-bg.jpg );
+    background-attachment: fixed;
+ }
+.overlay
+{
+    /* background-color: rgba(70, 64, 64, 0.493); */
+    /* background: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.87); 
+}
+.card-hidden
+{
+  background-color: white;  
+  width: 94%;
+  height: 100%;
+  top: 100%;
+ 
+}
+/* .hover-card{
+ transition-duration: 2s;
+} */
+.hover-card:hover .card-hidden
+{
+   top: 0%;
+   transition :  all 0.3s  ease;
+
+}
+/*h1 and paragragh in cards -6*/
+.icon-card
+{
+    padding-left: 40%;
+}
+.text-card
+{
+    padding-top: 20%;
+}
+/* end card  on image section 3*/
+
+
+
+
+/*our work section*/
+.list-hover:hover
+{
+    color: blue !important;
+}
+
+.alert-scale
+{
+ top: 90%;
+ width: 85%;
+ left: 8%;
+ height: 30%;
+ transform: scale(0);
+
+}
+
+.card-alert:hover .photo-alert
+{
+    box-shadow: 5px 20px 5px 20px  lightgray !important;
+    
+}
+.card-alert:hover .alert-scale
+{   top: 65%;
+   transform: scale(1);
+    transition: all 0.5s ease;
+    
+
+}
+/* end our work section*/
+
+
+
+
+/*section our creative team */
+.name
+{
+     top: 80%;
+     background-color: white; 
+     width: 90%;
+     
+}
+
+.photo:hover .name 
+{
+  top: 44%;
+  transition: all 0.5s ease;
+}
+.photo:hover .line-buttom
+{  
+   border-bottom: 0 !important;
+}
+
+ .ul-names:hover
+{
+    
+   color: black;
+}
+.photo:hover .ul-name{
+    top: 90%;
+    transition: all 1s ease;
+}
+
+
+/* end section our craetive team */
+
+
+
+
+/* start section our pricing*/
+
+
+.ul-ourpricing-button
+{
+    border-top-left-radius: 80px !important;
+    border-bottom-left-radius: 80px !important;
+    font-size:x-large !important;
+   
+}
+
+.ul-ourpricing-button-2
+{
+    border-top-right-radius: 80px !important;
+    border-bottom-right-radius: 80px !important;
+    font-size:x-large !important;
+   
+}
+
+
+/* end section our pricing*/
+
+
+
+
+/* start section testimonial*/
+.owl-prev 
+{
+   color: white !important;
+   background-color: blue !important;
+   width: 50px !important;
+   height: 30px !important;
+   border-top-left-radius: 80px !important;
+    border-bottom-left-radius: 80px !important;
+   /* padding-left: 5% !important;
+   border-left: 0ch !important;
+   font-size: 30px !important; */
+}
+
+.owl-next
+{   
+    color: white !important;
+    background-color: blue !important;
+    width: 50px !important;
+    height: 30px !important;
+    border-top-right-radius: 80px !important;
+    border-bottom-right-radius: 80px !important;
+}
+
+.owl-next:hover , .owl-prev:hover
+{
+    background-color: black !important;
+}
+
+.owl-theme img
+{
+   border-radius: 5px !important;
+}
+
+
+
+/*section13 three cards latest blog */
+
+.text-nextto-list
+{
+   padding-bottom: 20px !important;
+}
+
+.photo-section13
+{
+   border-top-left-radius:5px !important;
+   border-top-right-radius:5px !important;
+}
+.ul-section13
+{
+    border-bottom-left-radius: 5px !important;
+}
+.card-section13:hover img
+{
+    transform: rotate(8deg) scale(1.3);
+    transition: 0.5s ease-in-out;
+}
+
+.card-section13:hover .ul-section13
+{
+    background-color: blue !important;
+}
+.textblue:hover
+{
+  color: blue !important;
+}
+.icons-above-progress a
+{
+   color: gray !important;
+}
+.icons-above-progress a:hover
+{
+   color: blue !important;
+}
+.progress
+{
+    margin-left: 5%;
+    height: 1% !important;
+    width: 90% !important;
+}
+.progress-bar
+{   
+    
+    width: 25% !important;
+}
+.card-section13:hover .progress-bar 
+{
+    width: 100% !important;
+}
+.button-readmore
+{
+    text-decoration: none !important;
+    color: black !important;
+}
+.button-readmore:hover .icon-button-readmore
+{
+    margin-left: 3% !important;
+}
+/* end section13 three cards */
+
+
+
+/*section 14 with phone icon as background*/
+.p-section14
+{
+    top: 50% !important ;
+    color: white !important;
+    font-size: x-large !important;
+}
+/* end section 14 with phone icon as background*/
+
+
+
+/*foooooooooooooooterrrrrrrrrrr*/
+.footer-button button:hover
+{
+    background-color: rgb(79, 79, 231) !important;
+    color: white !important;
+    transition: all 0.5 ease;
+}
+/* end foooooooooooooooterrrrrrrrrrr*/
+
+
+
+/*the after buton in all buttons*/
+.after-button
+{
+    position: relative;
+    overflow: hidden;
+}
+.after-button::after
+{
+    content: "";
+    position: absolute;
+    background-color: white;
+    /* display: inline-block; */
+    /* display: none; */
+    opacity: 0.2;
+    width: 30px;
+    height: 150px;
+    left: -81px;
+    top: 0px;
+    transform: skew(-40deg);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.after-button:hover::after
+{
+  /* display: inline; */
+  margin-left: 135% !important;
+}
+
+
+/*second blue button*/
+.after-button-blue
+{
+    position: relative;
+    overflow: hidden;
+}
+.after-button-blue::after
+{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    /* display: inline-block; */
+    /* display: none; */
+    opacity: 0.2;
+    width: 30px;
+    height: 150px;
+    left: -81px;
+    top: 0px;
+    transform: skew(-40deg);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.after-button-blue:hover::after
+{
+  /* display: inline; */
+  margin-left: 135% !important;
+}
+
+
+.icon-up
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    display: none;
+    bottom: 55px;
+    right: 2%;
+    font-size: 1.5rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
